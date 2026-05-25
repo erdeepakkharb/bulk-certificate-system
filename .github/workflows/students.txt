@@ -1,0 +1,237 @@
+Name	Department																			
+Dr. Anamika	MD Anaesthesiology																			
+Dr. Anuj Tripathi	MD Anaesthesiology																			
+Dr. Anurag Das	MD Anaesthesiology																			
+Dr. Arjun G	MD Anaesthesiology																			
+Dr. Ashish Verma	MD Anaesthesiology																			
+Dr. Bonam Sathish Kumar	MD Anaesthesiology																			
+Dr. Deepika Kumari	MD Anaesthesiology																			
+Dr. Dharmender Ranga	MD Anaesthesiology																			
+Dr. Diksha Gulia	MD Anaesthesiology																			
+Dr. Divya Sagar	MD Anaesthesiology																			
+Dr. Dona Peter	MD Anaesthesiology																			
+Dr. Harsh Lakhanpal	MD Anaesthesiology																			
+Dr. Himadri Chanda	MD Anaesthesiology																			
+Dr. Jyoti	MD Anaesthesiology																			
+Dr. Kiran Kumar Yeddu	MD Anaesthesiology																			
+Dr. Komal Yadav	MD Anaesthesiology																			
+Dr. Koredla Kranti Kumar	MD Anaesthesiology																			
+Dr. Kumili Raj Bhagavan	MD Anaesthesiology																			
+Dr. Lopita Sahu	MD Anaesthesiology																			
+Dr. Mallela Venkata Krishna Teja	MD Anaesthesiology																			
+Dr. Marjan Wao Chyrmang	MD Anaesthesiology																			
+Dr. Mohd Irfan	MD Anaesthesiology																			
+Dr. Navdeep Singh	MD Anaesthesiology																			
+Dr. Neha	MD Anaesthesiology																			
+Dr. Nitasha	MD Anaesthesiology																			
+Dr. Paramjeet	MD Anaesthesiology																			
+Dr. Priti	MD Anaesthesiology																			
+Dr. Priya	MD Anaesthesiology																			
+Dr. Priyanka Rani	MD Anaesthesiology																			
+Dr. Punit Kumar	MD Anaesthesiology																			
+Dr. Purnima Sharma	MD Anaesthesiology																			
+Dr. Rahul N	MD Anaesthesiology																			
+Dr. Rajdeep Yadav	MD Anaesthesiology																			
+Dr. Randheer Kumar	MD Anaesthesiology																			
+Dr. Sahil Shiva	MD Anaesthesiology																			
+Dr. Sahil Turkia	MD Anaesthesiology																			
+Dr. Shally Jain	MD Anaesthesiology																			
+Dr. Shewta	MD Anaesthesiology																			
+Dr. Smita Chettri	MD Anaesthesiology																			
+Dr. Tanu Goyal	MD Anaesthesiology																			
+Dr. Tushar Nandwani	MD Anaesthesiology																			
+Dr. Urmi Malik	MD Anaesthesiology																			
+Dr. Vikas Kumar	MD Anaesthesiology																			
+Dr. Vishal Verma	MD Anaesthesiology																			
+Dr. Soujanya Agrawal	MD Anatomy																			
+Dr. Abhira Deb	MD Biochemistry																			
+Dr. Chaudhari Nikunjkumar Rajendrabhai	MD Biochemistry																			
+Dr. Kritika	MD Biochemistry																			
+Dr. Preety Rani	MD Biochemistry																			
+Dr. Sabiya Praveen	MD Biochemistry																			
+Dr. Achchhesh Singmar	MD Community Medicine																			
+Dr. Adhya Dubey	MD Community Medicine																			
+Dr. Divya Sharma	MD Community Medicine																			
+Dr. Mansi Poonia	MD Community Medicine																			
+Dr. Narender Kumar	MD Community Medicine																			
+Dr. Parmeet Singh	MD Community Medicine																			
+Dr. Sadam Hussain Nazaruddeen	MD Community Medicine																			
+Dr. Sourav Poddar	MD Community Medicine																			
+Dr. Yogender Singh	MD Community Medicine																			
+Dr. Manpreet Singh	"MD Derma, Vene., & Leprosy"																			
+Dr. Preeti Yadav	"MD Derma., Vene. & Leprosy"																			
+Dr. Rekha Verma	"MD Derma., Vene. & Leprosy"																			
+Dr. Snehil	"MD Derma., Vene. & Leprosy"																			
+Dr. Abhiney Gupta	MD Forensic Medicine																			
+Dr. Chander Bhan	MD Forensic Medicine																			
+Dr. Subhash Sharma	MD Forensic Medicine																			
+Dr. Mandeep Kumar	MD Forensic Medicine																			
+Dr. Mohit Yadav	MD Forensic Medicine																			
+Dr. Alpna	MD General Medicine																			
+Dr. Amandeep Singh	MD General Medicine																			
+Dr. Ankush	MD General Medicine																			
+Dr. Aviral Dua	MD General Medicine																			
+Dr. Divyajyoti Das	MD General Medicine																			
+Dr. Garima Shant	MD General Medicine																			
+Dr. Hitesh Yadav	MD General Medicine																			
+Dr. Jarpula Nikhil Sai	MD General Medicine																			
+Dr. Luxmi Soni	MD General Medicine																			
+Dr. Manik Garg	MD General Medicine																			
+Dr. Neha Rani	MD General Medicine																			
+Dr. Priyanshu Yadav	MD General Medicine																			
+Dr. Sharmista Verma	MD General Medicine																			
+Dr. Sorrish	MD General Medicine																			
+Dr. Tummalapalli Sai Kamesh	MD General Medicine																			
+Dr. Vipin	MD General Medicine																			
+Dr. Vivek Jangra	MD General Medicine																			
+Dr. Yashbir	MD General Medicine																			
+Dr. Ankita Nandi	MD Microbiology																			
+Dr. Mansi Gupta	MD Microbiology																			
+Dr. Prateek	MD Microbiology																			
+Dr. Sanchit Aggarwal	MD Microbiology																			
+Dr. Dinesh Gangoria	MD Paediatric Medicine																			
+Dr. Lavanya Sharma	MD Paediatric Medicine																			
+Dr. Mahipal Arya	MD Paediatric Medicine																			
+Dr. Manju	MD Paediatric Medicine																			
+Dr. Mohit	MD Paediatric Medicine																			
+Dr. Naman Jain	MD Paediatric Medicine																			
+Dr. Neha Pruthi	MD Paediatric Medicine																			
+Dr. P. N. Liveinai	MD Paediatric Medicine																			
+Dr. Pilli Naveen Kumar	MD Paediatric Medicine																			
+Dr. Ritika Singh	MD Paediatric Medicine																			
+Dr. Sandeep	MD Paediatric Medicine																			
+Dr. Shaifali Mittal	MD Paediatric Medicine																			
+Dr. Sunisha	MD Paediatric Medicine																			
+Dr. Vatan	MD Paediatric Medicine																			
+Dr. Ankush	MD Pathology																			
+Dr. Geetika	MD Pathology																			
+Dr. Kshitija Attry	MD Pathology																			
+Dr. Mehak Jindal	MD Pathology																			
+Dr. Navneet Kaur	MD Pathology																			
+Dr. Palak Bansal	MD Pathology																			
+Dr. Preeti Rani	MD Pathology																			
+Dr. Rashmi Jangra	MD Pathology																			
+Dr. Ritu Pachauri	MD Pathology																			
+Dr. Rupali	MD Pathology																			
+Dr. Sahil Goel	MD Pathology																			
+Dr. Shivani Bhargava	MD Pathology																			
+Dr. Santosh Kumar Yadav	MD Pathology																			
+Dr. Adarsh Rag	MD Pharmacology																			
+Dr. Gishnu Ravi Ram K	MD Pharmacology																			
+Dr. Pawan Dhaka	MD Pharmacology																			
+Dr. Rashi	MD Pharmacology																			
+Dr. Reevanshi Dhawan	MD Pharmacology																			
+Dr. V Shanmugapriya	MD Pharmacology																			
+Dr. Amritpal Singh Sandhu	MD Physiology																			
+Dr. Dharamendra Singh Nandal	MD Physiology																			
+Dr. Parthasarathy Gopal	MD Physiology																			
+Dr. Shubham Singh	MD Physiology																			
+Dr. Simran Varma	MD Physiology																			
+Dr. Ankit Kumar	MD Psychiatry																			
+Dr. Avtar Singh	MD Psychiatry																			
+Dr. Chirag Singh	MD Psychiatry																			
+Dr. Harshit Arora	MD Psychiatry																			
+Dr. Hemant Kumar	MD Psychiatry																			
+Dr. Himanshu	MD Psychiatry																			
+Dr. Inderbir Singh Bhatia	MD Psychiatry																			
+Dr. Khushboo	MD Psychiatry																			
+Dr. Payal	MD Psychiatry																			
+Dr. Umme Habiba	MD Psychiatry																			
+Dr. Aditi Punia	MD Radiation Oncology																			
+Dr. Ankita Ahlawat	MD Radiation Oncology																			
+Dr. Anuj Yadav	MD Radiation Oncology																			
+Dr. Arvind Kumar	MD Radiation Oncology																			
+Dr. Preety	MD Radiation Oncology																			
+Dr. Singanamalla Ravindra	MD Radiation Oncology																			
+Dr. Amit Kumar	MD Radio Diagnosis																			
+Dr. Chaudhari Anjali	MD Radio Diagnosis																			
+Dr. Kanik	MD Radio Diagnosis																			
+Dr. Neeraj Kumar	MD Radio Diagnosis																			
+Dr. Preeti	MD Radio Diagnosis																			
+Dr. Himanshu Gautam	MD Radio-diagnosis																			
+Dr. Ishwinder Singh	MD Radio-diagnosis																			
+Dr. Jaisa Ram	MD Radio-diagnosis																			
+Dr. Jyoti	MD Radio-diagnosis																			
+Dr. Akash	MD Respiratory Medicine																			
+Dr. Gareema	MD Respiratory Medicine																			
+Dr. Kanishka Choudhary	MD Respiratory Medicine																			
+Dr. Poonam Langyan	MD Respiratory Medicine																			
+Dr. Priya Dharshini.R.L	MD Respiratory Medicine																			
+Dr. Paul Therattil	MD Sports Medicine																			
+Dr. Shorya	MD Sports Medicine																			
+Dr. Harneet Kaur Narula	MS ENT																			
+Dr. Imran Ali	MS ENT																			
+Dr. Nishant Saini	MS ENT																			
+Dr. Sahil	MS ENT																			
+Dr. Shivangi Manglik	MS ENT																			
+Dr. Aasif Hussain	MS General Surgery																			
+Dr. Arnav Gupta	MS General Surgery																			
+Dr. Deepanshu	MS General Surgery																			
+Dr. Gavin Kumar	MS General Surgery																			
+Dr. Hitesh Sachdeva	MS General Surgery																			
+Dr. Kalpit Kumar Sahoo	MS General Surgery																			
+Dr. Kartikay Shukla	MS General Surgery																			
+Dr. L Simon Seiwa Lanah	MS General Surgery																			
+Dr. Loveneesh Kumar	MS General Surgery																			
+Dr. Manoj	MS General Surgery																			
+Dr. Piyush	MS General Surgery																			
+Dr. Rahul	MS General Surgery																			
+Dr. Shashi Kant	MS General Surgery																			
+Dr. Shristy Prakash	MS General Surgery																			
+Dr. Simran Kaur	MS General Surgery																			
+Dr. Sourav Sankar Dutta	MS General Surgery																			
+Dr. Sumit Chahar	MS General Surgery																			
+Dr. Tapan Sahu	MS General Surgery																			
+Dr. Farha Naaz	MS Obstetrics & Gynaecology																			
+Dr. Garima Garg	MS Obstetrics & Gynaecology																			
+Dr. Konika Yadav	MS Obstetrics & Gynaecology																			
+Dr. Malti	MS Obstetrics & Gynaecology																			
+Dr. Monika Gautam	MS Obstetrics & Gynaecology																			
+Dr. Monika Yadav	MS Obstetrics & Gynaecology																			
+Dr. Monu	MS Obstetrics & Gynaecology																			
+Dr. Nasreen Chowdhary	MS Obstetrics & Gynaecology																			
+Dr. Nisha	MS Obstetrics & Gynaecology																			
+Dr. Oindrilla Karmakar	MS Obstetrics & Gynaecology																			
+Dr. Pooja	MS Obstetrics & Gynaecology																			
+Dr. Pratima Kalra	MS Obstetrics & Gynaecology																			
+Dr. Rachna Rani	MS Obstetrics & Gynaecology																			
+Dr. Ridhi Suri	MS Obstetrics & Gynaecology																			
+Dr. Samashti Gupta	MS Obstetrics & Gynaecology																			
+Dr. Sangeeta Gora	MS Obstetrics & Gynaecology																			
+Dr. Sneha Singh	MS Obstetrics & Gynaecology																			
+Dr. Nikita	MS Obstetrics & Gynecology																			
+Dr. Raman	MS Obstetrics & Gynecology																			
+Dr. Sakshi Gupta	MS Obstetrics & Gynecology																			
+Dr. Ankur Sharma	MS Ophthalmology																			
+Dr. Chander Prabha	MS Ophthalmology																			
+Dr. Divya Srivastava	MS Ophthalmology																			
+Dr. Kanupriya Vij	MS Ophthalmology																			
+Dr. Lalita Rani	MS Ophthalmology																			
+Dr. Rajni Yadav	MS Ophthalmology																			
+Dr. Sakshi Gupta	MS Ophthalmology																			
+Dr. Vicky Vidhata	MS Ophthalmology																			
+Dr. Yogesh	MS Ophthalmology																			
+Dr. Chandra Moul Tiwari	MS Orthopaedics																			
+Dr. Chetan Prakash Agrawal	MS Orthopaedics																			
+Dr. Dharmender	MS Orthopaedics																			
+Dr. Himanshu	MS Orthopaedics																			
+Dr. Navdeep Singh	MS Orthopaedics																			
+Dr. Pratik Raj	MS Orthopaedics																			
+Dr. Rahul	MS Orthopaedics																			
+Dr. Ritesh Dhara	MS Orthopaedics																			
+Dr. Rohil Jain	MS Orthopaedics																			
+Dr. Rohit Siwach	MS Orthopaedics																			
+Dr. Shubham Verma	MS Orthopaedics																			
+Dr. Utpal Kant	MS Orthopaedics																			
+Dr. Deepika Budhwar	DM Cardiac Anaesthesia																			
+Dr. Devender Yadav	DM Cardiology																			
+Dr. Mukul Kansal	DM Cardiology																			
+Dr. Surapaneni Vineela	DM Pulmonary Medicine																			
+Dr. Samruddhi Dhanaji Chougale	DM Pulmonary Medicine																			
+Dr. Panmeshwar Kumar Rathia	M.Ch. Cardio Thoracic Surgery																			
+Dr. L Khyothungo Yanthan	M.CH. Neuro Surgery																			
+Dr. Gaurav Mittal	M.Ch. Neuro Surgery																			
+Dr. Akshay Kumar	M.Ch. Plastic and Reconstructive Surgery																			
+Dr. Neeraj Mane	M.CH. Urology																			
+Dr. Saurabh Mittal	M.CH. Urology																			
+Dr. Vijay Pal	M.CH. Urology																			
