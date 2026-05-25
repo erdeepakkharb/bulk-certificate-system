@@ -1,0 +1,70 @@
+name: Bulk Generate PDF Certificates
+on:
+  workflow_dispatch:
+
+jobs:
+  bulk_convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Repository Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install PDF Generation Tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install weasyprint
+
+      - name: Process Multi-Column CSV and Generate Certificates
+        run: |
+          python -c "
+          import csv
+          import os
+          from weasyprint import HTML
+
+          # Create output folder
+          os.makedirs('generated_certificates', exist_ok=True)
+
+          # Open structural layout
+          with open('index.html', 'r', encoding='utf-8') as f:
+              template_content = f.read()
+
+          # Parse student manifest
+          with open('students.csv', mode='r', encoding='utf-8') as file:
+              reader = csv.DictReader(file)
+              for index, row in enumerate(reader, start=1):
+                  student_name = row['Name'].strip()
+                  dept_name = row['Department'].strip()
+                  
+                  if not student_name:
+                      continue
+                  
+                  print(f'Processing Line {index}: {student_name} | {dept_name}')
+                  
+                  # Interpolate values into layout variables
+                  personalized_html = template_content.replace('NAME_PLACEHOLDER', student_name)
+                  personalized_html = personalized_html.replace('DEPARTMENT_PLACEHOLDER', dept_name)
+                  
+                  # Establish structured transient workspaces
+                  temp_html_path = f'temp_{index}.html'
+                  with open(temp_html_path, 'w', encoding='utf-8') as temp_file:
+                      temp_file.write(personalized_html)
+                  
+                  # Produce absolute PDF output target
+                  pdf_filename = f'generated_certificates/{student_name}_Certificate.pdf'
+                  HTML(temp_html_path).write_pdf(pdf_filename)
+                  
+                  # Clean workspace elements
+                  os.remove(temp_html_path)
+          "
+
+      - name: Deliver All Certificates as a Single Zip Bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: "Bulk-Student-Certificates"
+          path: generated_certificates/
+          retention-days: 7
