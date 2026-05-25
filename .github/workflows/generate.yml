@@ -26,6 +26,7 @@ jobs:
           python -c "
           import csv
           import os
+          import re
           from weasyprint import HTML
 
           if not os.path.exists('students.csv'):
@@ -40,8 +41,6 @@ jobs:
               reader = csv.DictReader(file)
               reader.fieldnames = [f.strip().lower() for f in reader.fieldnames] if reader.fieldnames else []
               
-              print('Detected CSV columns:', reader.fieldnames)
-              
               if 'name' not in reader.fieldnames or 'department' not in reader.fieldnames:
                   raise KeyError(f'CRITICAL ERROR: CSV columns must be named \"Name\" and \"Department\". Found: {reader.fieldnames}')
 
@@ -52,18 +51,29 @@ jobs:
                   if not student_name:
                       continue
                   
-                  print(f'Processing: {student_name} | {dept_name}')
+                  print(f'Processing Line {index}: {student_name} | {dept_name}')
                   
+                  # Replace layout placeholders
                   personalized_html = template_content.replace('NAME_PLACEHOLDER', student_name)
                   personalized_html = personalized_html.replace('DEPARTMENT_PLACEHOLDER', dept_name)
+                  
+                  # SANITIZATION: Remove characters that break file paths (/, \, ?, *, :, etc.)
+                  safe_filename = re.sub(r'[\\/*?:\'\"<>|]', '_', student_name)
                   
                   temp_html_path = f'temp_{index}.html'
                   with open(temp_html_path, 'w', encoding='utf-8') as temp_file:
                       temp_file.write(personalized_html)
                   
-                  pdf_filename = f'generated_certificates/{student_name}_Certificate.pdf'
-                  HTML(temp_html_path).write_pdf(pdf_filename)
-                  os.remove(temp_html_path)
+                  # Use the safe, sanitized name for the PDF output filename
+                  pdf_filename = f'generated_certificates/{safe_filename}_Certificate.pdf'
+                  
+                  try:
+                      HTML(temp_html_path).write_pdf(pdf_filename)
+                  except Exception as e:
+                      print(f'Failed to generate PDF for {student_name} due to error: {e}')
+                  finally:
+                      if os.path.exists(temp_html_path):
+                          os.remove(temp_html_path)
           "
 
       - name: Deliver All Certificates as a Single Zip Bundle
