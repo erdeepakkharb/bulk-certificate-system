@@ -14,8 +14,10 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install PDF Generation Tools
+      - name: Install System Graphics Libraries and PDF Tools
         run: |
+          sudo apt-get update
+          sudo apt-get install -y libffi-dev libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libgdk-pixbuf2.0-0 shared-mime-info
           python -m pip install --upgrade pip
           pip install weasyprint
 
@@ -26,39 +28,41 @@ jobs:
           import os
           from weasyprint import HTML
 
-          # Create output folder
+          if not os.path.exists('students.csv'):
+              raise FileNotFoundError('CRITICAL ERROR: could not find \"students.csv\". Please verify the filename.')
+
           os.makedirs('generated_certificates', exist_ok=True)
 
-          # Open structural layout
           with open('index.html', 'r', encoding='utf-8') as f:
               template_content = f.read()
 
-          # Parse student manifest
-          with open('students.csv', mode='r', encoding='utf-8') as file:
+          with open('students.csv', mode='r', encoding='utf-8-sig') as file:
               reader = csv.DictReader(file)
+              reader.fieldnames = [f.strip().lower() for f in reader.fieldnames] if reader.fieldnames else []
+              
+              print('Detected CSV columns:', reader.fieldnames)
+              
+              if 'name' not in reader.fieldnames or 'department' not in reader.fieldnames:
+                  raise KeyError(f'CRITICAL ERROR: CSV columns must be named \"Name\" and \"Department\". Found: {reader.fieldnames}')
+
               for index, row in enumerate(reader, start=1):
-                  student_name = row['Name'].strip()
-                  dept_name = row['Department'].strip()
+                  student_name = row['name'].strip()
+                  dept_name = row['department'].strip()
                   
                   if not student_name:
                       continue
                   
-                  print(f'Processing Line {index}: {student_name} | {dept_name}')
+                  print(f'Processing: {student_name} | {dept_name}')
                   
-                  # Interpolate values into layout variables
                   personalized_html = template_content.replace('NAME_PLACEHOLDER', student_name)
                   personalized_html = personalized_html.replace('DEPARTMENT_PLACEHOLDER', dept_name)
                   
-                  # Establish structured transient workspaces
                   temp_html_path = f'temp_{index}.html'
                   with open(temp_html_path, 'w', encoding='utf-8') as temp_file:
                       temp_file.write(personalized_html)
                   
-                  # Produce absolute PDF output target
                   pdf_filename = f'generated_certificates/{student_name}_Certificate.pdf'
                   HTML(temp_html_path).write_pdf(pdf_filename)
-                  
-                  # Clean workspace elements
                   os.remove(temp_html_path)
           "
 
